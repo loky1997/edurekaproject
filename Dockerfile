@@ -1,2 +1,2 @@
-FROM devopsedu/webapp
+FROM devopsedu/webapp:latest
 COPY . /var/www/html 
