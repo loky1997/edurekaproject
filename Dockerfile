@@ -1,2 +1,4 @@
-FROM docker.io/devopsedu/webapp
-COPY . /var/www/html 
+FROM php
+COPY ./index.php/ ./
+EXPOSE 3000
+CMD ["php", "S", "0.0.0.0:3000"]
